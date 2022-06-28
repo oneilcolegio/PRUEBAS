@@ -8,17 +8,19 @@
 </head>
 <body>
     
-</body>}
+</body>
+
 
 <script>
+    const MySql= require("Mysql")
     MySql.Execute(
     "localhost", 
     "root", 
     "", 
     "hosting", 
-    "select * from estudiantes", 
+    "select cedula from estudiantes", 
     function (data) {
-    console.log(data)
+    alert(data);
 });
 </script>
 </html>
