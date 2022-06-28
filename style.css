@@ -46,7 +46,7 @@ font-family: 'Open Sans', sans-serif;
     
 }
 
-#Inicio, #sobresMi, #contacto, #galeria, #checo{
+#Inicio, #sobresMi, #contacto, #galeria, #conexion, #checo{
 
     text-shadow: 2px 2px 2px rgb(69, 178, 214);
     flex: 1 1 auto;
