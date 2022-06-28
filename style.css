@@ -1,0 +1,148 @@
+*{
+margin: 0%;
+
+font-family: 'Open Sans', sans-serif;
+                                                
+}
+
+.Menu{
+    color: black;
+    background-color: blue;
+    cursor: pointer;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+#contenedor{
+    background-color: #E0A5F0;
+    margin: 8%;
+    
+
+}
+/*
+#main-header{
+  width: 84%;
+  position: fixed;
+  z-index: 100;
+ 
+  
+}
+
+*/
+#Menu{
+
+    
+    box-shadow: 0px 0px 10px 0px #DBFFD9 inset;
+    background-color: #B9FF45;
+    
+    color: cornsilk;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 150%;
+    
+    
+}
+
+#Inicio, #sobresMi, #contacto, #galeria, #checo{
+
+    text-shadow: 2px 2px 2px rgb(69, 178, 214);
+    flex: 1 1 auto;
+    margin: 1%;
+    cursor: pointer;
+    text-decoration: none;
+    color: #0e0d0d;
+    
+    
+
+}
+
+
+
+
+
+
+#section{
+    background-color: #DBFFD9;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#imagen{
+    display: flex;
+
+}
+#Foto{
+   width: 10cm;
+   flex: 1 1 auto;
+   filter: brightness(30%);
+}
+#articulo{
+    background-color: #DBFFD9;
+    font-size: 150%;
+    
+}
+
+#centrado{
+    margin: auto;
+    margin-top: 10%;
+    width: 70%;
+    text-align:justify;
+    white-space: normal;
+ }
+
+ #P, #E, #F, #D{
+
+    font-size: 130%;
+    margin-top: 8%;
+    margin-bottom: 3%;
+    border-bottom: 1px solid #5F8F5D;
+    color:#7C009E;
+    cursor: pointer;
+}
+
+#logo{
+    width: 5%;
+    margin-left: 47%;
+    margin-right: auto;
+
+    
+}
+#presentacion{
+    position: absolute;
+    top: 8%;
+    left: 25%;
+    color: #ffffff;
+    font-size: 250%;
+
+    /*padding:0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    */
+}
+
+#circulo-foto{
+    position: absolute;
+    width: 20%;
+    height: 7.5%;
+    bottom: 78%;
+    left: 40%;
+    border-radius: 50%;
+    
+}
+#nombre{
+    position: absolute;
+    top: 12%;
+    left: 35%;
+    color:#ffffff;
+    font-size: 250%;
+
+}
+#li{
+    list-style: none;
+}
